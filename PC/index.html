@@ -85,6 +85,28 @@ body.main{
 	margin:0 auto;
 	padding-top:150px;
 }
+.sec_main{
+	position:relative;
+	background:url(images/main_top.jpg);
+	width:900px;
+	height:1108px;
+}
+.sec_main a{
+	display:block;
+	position:absolute;
+}
+.sec_main a.btn_gift{
+	right:82px;
+	top:355px;
+}
+.sec_main a.btn_game{
+	left:84px;
+	bottom:230px;
+}
+.sec_main a.btn_sch{
+	right:82px;
+	bottom:230px;
+}
 
 </style>
 
@@ -93,9 +115,11 @@ body.main{
 </head>
 
 <body class="main">
-
-	<div>
-    	<img src="images/main_top.jpg" alt=""/>
+	
+	<div class="sec_main">
+    	<a href="#" class="btn_gift"><img src="images/btn_gift.png" alt=""/></a>
+        <a href="#" class="btn_game"><img src="images/btn_game.png" alt=""/></a>
+        <a href="#"class="btn_sch"><img src="images/btn_sch.png" alt=""/></a>
     </div>
     <div class="sec_movie">
     
