@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+content="width=device-width, user-scalable=yes,
+initial-scale=1.0, maximum-scale=3.0"/>
+<link rel="shortcut icon" type="image/x-icon" href="./img/icon/favicon.ico" />
+<title>모바일 메인</title>
+<!--[if lt IE 9]><script src="./js/html5shiv.js"></script><![endif]-->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		width:100%;
+		background:#f7f5f6;
+	}
+	.img,
+	.img img{
+		width:100%;
+	}
+	.sec_rolling{
+		position:relative;
+		width:100%;
+	}
+	.sec_rolling .arrow{
+		position:absolute;
+		top:30%;
+		left:2%;
+		z-index:1000;
+		width:30px;
+	}
+	.sec_rolling .arrow a{
+		display:block;
+	}
+	.sec_rolling .arrow.right{
+		left:89%;
+	}
+	.sec_rolling .img{
+		width:96%;
+		margin:0 auto;
+	}
+</style>
+</head>
+
+<body>
+    
+   
+ 	<div class="sec_top">
+    	<div class="inner_sec_top img">
+	        <img src="images/main_top.jpg" />
+        </div>
+    </div>
+     <div class="sec_rolling">
+     	<div class="arrow left"><a href="#"><img src="images/arrow_left.png" width="30" /></a></div>
+        <div class="arrow right"><a href="#"><img src="images/arrow_right.png" width="30" /></a></div>
+        <div class="img"><img src="images/rolling_1.jpg" /></div>
+     </div>
+    <div class="img">
+    	<img src="images/main_detail.jpg" />
+    </div>
+    <div class="img" style="background:#eee6ea;">
+    	<a href="#"><img src="images/main_bottom.jpg" /></a>
+    </div>
+    
+</body>
+</html>

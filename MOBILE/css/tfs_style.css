@@ -1,0 +1,51 @@
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		width:100%;
+		background:#f7f5f6;
+	}
+	.img,
+	.img img{
+		width:100%;
+	}
+	.sec_rolling{
+		position:relative;
+		width:100%;
+	}
+	.sec_rolling .arrow{
+		position:absolute;
+		top:30%;
+		left:2%;
+		z-index:7;
+		width:30px;
+	}
+	.sec_rolling .arrow a{
+		display:block;
+	}
+	.sec_rolling .arrow.right{
+		left:89%;
+	}
+	.sec_rolling .img{
+		width:96%;
+		margin:0 auto;
+	}
+
+	.mnv_mask{display:none; position:absolute;top:0;left:0;width:100%;height:100%;background:url(http://www.thefaceshop-event.com/PC/images/mask_bg.png) repeat;z-index:8}
+
+	.iframe{
+		position:relative;
+		width:100%;
+		height:100%;
+	}
+	.iframe .block_close{
+		display:block;
+		position:absolute;
+		top:10px;
+		right:10px;
+	}
+	.iframe iframe{
+		width:100%;
+		height:100%;
+	}

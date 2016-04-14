@@ -1,0 +1,14 @@
+html,body { margin: 0; padding: 0; word-wrap: break-word; word-break: break-all;}
+
+
+/*퀵메뉴 DIV*/
+.contents_wrap .quickmenu{
+	position:absolute;
+	right:20px;
+	z-index:50;
+}
+
+.ytplayer{
+	overflow:hidden;
+}
+
