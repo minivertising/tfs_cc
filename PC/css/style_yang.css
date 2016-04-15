@@ -191,6 +191,25 @@ body.main{
 	background:#fff;
 }
 
+
+.popup_wrap .p_basic.schedule,
+.popup_wrap .p_basic.gift,
+.popup_wrap .p_basic.howto{
+	width:860px;
+	height:735px;
+	background:#fff;
+}
+.popup_wrap .p_basic.schedule_al01{
+	width:408px;
+	height:346px;
+	background:#fff;
+}
+.popup_wrap .p_basic.schedule_al02{
+	width:561px;
+	height:193px;
+	background:#fff;
+}
+
 .popup_wrap .p_basic.howto{
 }
 .popup_wrap .p_basic.gift{
