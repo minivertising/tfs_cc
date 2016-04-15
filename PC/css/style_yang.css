@@ -141,13 +141,13 @@ body.main{
 .popup_wrap .p_basic{
 	position:relative;
 	width:500px;
-	height:500px;
+	height:500px; 
 	border:1px solid #000;
 }
 /*popup 사이즈 조절*/
 .popup_wrap .p_basic.agree_1{
     width:547px;
-	height:624px;
+	height:624px; 
 }
 .popup_wrap .p_basic.agree_2{
     width:547px;
@@ -168,26 +168,26 @@ body.main{
 
 .popup_wrap .p_basic.comp_2{
 	width:557px;
-	height:265px;
+	height:354px;
 	background:#fff;
 }
 
 .popup_wrap .p_basic.sns{
 	width:557px;
-	height:300px;
+	height:313px;
 	background:#fff;
 }
 
 
 .popup_wrap .p_basic.go_out{
 	width:557px;
-	height:265px;
+	height:421px;
 	background:#fff;
 }
 
 .popup_wrap .p_basic.one_more{
 	width:557px;
-	height:265px;
+	height:346px;
 	background:#fff;
 }
 
@@ -200,8 +200,8 @@ body.main{
 	height:735px;
 }
 .popup_wrap .p_basic.game_start{
-	width:800px;
-	height:607px;
+	width:860px;
+	height:735px;
 	background:#fff url(../images/popup/bg_game_start.jpg) no-repeat left top;	
 }
 
@@ -224,7 +224,7 @@ body.main{
 .popup_wrap .p_basic.go_out .block_content .sec_title,
 .popup_wrap .p_basic.comp_2 .block_content .sec_title,
 .popup_wrap .p_basic.one_more .block_content .sec_title{
-	padding:40px 0 20px;
+	padding:50px 0 20px;
 }
 .popup_wrap .p_basic.sns .block_content .sec_title{
 	padding:40px 0 20px;
@@ -238,7 +238,7 @@ body.main{
 
 .popup_wrap .p_basic .block_content .sec_input{
 	padding-left:50px;
-	padding-bottom:3px;
+	padding-bottom:3px; 
 }
 .popup_wrap .p_basic .block_content .sec_input .inner .label,
 .popup_wrap .p_basic .block_content .sec_input .inner .input{
@@ -247,14 +247,14 @@ body.main{
 }
 .popup_wrap .p_basic .block_content .sec_input .inner .label{
 	width:80px;
-	padding-top:5px;
-	font-size:15px;
+	padding-top:5px; 
+	font-size:14px;
 }
 
 .popup_wrap .p_basic .block_content .sec_input input{
 	border:1px solid #869f91;
-	padding:5px ;
-	width:180px;
+	padding:5px ; 
+	width:170px;
 	font-size:14px;
 }
 .popup_wrap .p_basic .block_content .sec_input.name input{
@@ -262,8 +262,8 @@ body.main{
 .popup_wrap .p_basic .block_content .sec_input.phone{
 }
 .popup_wrap .p_basic .block_content .sec_input .input.add input{
-	width:54px;
-}
+	width:49px; 
+}  
 .popup_wrap .p_basic .block_content .sec_input .btn_sear{
 	display:block;
 	float:left;
@@ -273,14 +273,14 @@ body.main{
 	display:block;
 	width:50px;
 	padding:7px 0 6px;
-	font-size:13px;
+	font-size:13px; 
 	text-align:center;
 	color:#fff;
 	background:#687e71;
 }
 .popup_wrap .p_basic .block_content .sec_check{
 	padding-left:50px;
-	font-size:14px;
+	font-size:12px; 
 }
 .popup_wrap .p_basic .block_content .sec_check a{
 	color:#666;
@@ -288,37 +288,41 @@ body.main{
 	float:left;
 }
 .popup_wrap .p_basic .block_content .sec_check a.checkbox{
-	width:21px;
-}
+	width:18px; text-align:center; margin-top:0px;
+} 
 .popup_wrap .p_basic .block_content .sec_check a.label{
-	width:190px;
-}
+	width:190px;  
+} 
 .popup_wrap .p_basic .block_content .sec_check a.btn_detail{
 	width:60px;
-	float:right;
-	text-decoration:underline;
+	float:right; 
+	text-decoration:underline; 
 }
 .popup_wrap .p_basic .block_content .sec_check.first{
-	padding-top:15px;
+	padding-top:10px;  
 }
 .popup_wrap .p_basic.comp_1 .block_content .sec_txt{
 	padding-left:40px;
-	padding-bottom:10px;
+	padding-bottom:10px; 
 }
 
 
 
 
 .popup_wrap .p_basic .block_content .sec_sns{
-	text-align:center;
+	text-align:center; padding-bottom:20px;  
+}
+
+.popup_wrap .p_basic .block_content .sec_sns a{
+	padding-right:10px;
 }
 .popup_wrap .p_basic .block_content .sec_btn{
 	text-align:center;
-	padding:10px 0;
+	padding:0px 0; 
 }
 .popup_wrap .p_basic.game_start .block_content .sec_btn{
 	text-align:center;
-	padding-top:480px;
+	padding-top:570px;
 }
 .popup_wrap .p_basic .block_content .sec_btn.two{
 }
@@ -334,28 +338,28 @@ body.main{
 }
 
 .popup_wrap .p_basic.game .block_content .sec_card{
-	padding-left:56px;
-}
+	padding-left:56px; 
+} 
 .popup_wrap .p_basic.game .block_content .sec_card .inner{
 	width:100%;
 }
 
 .popup_wrap .p_basic.game .block_content .sec_card .inner .one_cd{
 	float:left;
-	padding-right:1px;
+	padding-right:2px;
 	padding-bottom:2px;
 }
 .popup_wrap .p_basic.game .block_content .sec_status{
-	padding-left:56px;
+	padding-left:58px;
 	padding-top:15px;
 }
 
 .popup_wrap .p_basic.game .block_content .sec_status .bags{
-	float:left;
-	width:300px;
+	float:left; padding-right:5px;
+	width:403px; 
 	background:url(../images/popup/bg_bags.png) no-repeat;
 	height:63px;
-	position:relative;
+	position:relative; 
 
 }
 .popup_wrap .p_basic.game .block_content .sec_status .bags .b_img{
@@ -363,36 +367,52 @@ body.main{
 	bottom:3px;
 }
 .popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_1{
-	left:25px;
+	left:7px; 
 }
 .popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_2{
-	left:85px;
+	left:54px;
 }
 .popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_3{
-	left:145px;
+	left:104px;
 }
 .popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_4{
-	left:200px;
+	left:150px;
+}
+
+.popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_5{
+	left:201px;
+}
+
+.popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_6{
+	left:257px;
+}
+
+.popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_7{
+	left:306px;
+}
+
+.popup_wrap .p_basic.game .block_content .sec_status .bags .b_img.b_8{
+	left:349px;
 }
 
 
 .popup_wrap .p_basic.game .block_content .sec_status .gage{
 	float:left;
-	width:442px;
+	width:332px;
 	background:url(../images/popup/bg_gage.png) no-repeat;
 	height:63px;
-	position:relative;
+	position:relative; 
 }
 
 .popup_wrap .p_basic.game .block_content .sec_status .gage .inner_bar{
 	position:absolute;
 	top:23px;
 	left:17px;
-	width:366px;
+	width:250px;
 	background:#ffffff;
 	height:18px;
 	border-radius:100px;
-	z-index:1000;
+	z-index:1000; 
 }
 .popup_wrap .p_basic.game .block_content .sec_status .gage .inner_bar .bar{
 	width:80%;
@@ -408,16 +428,16 @@ body.main{
 	position:absolute;
 	top:17px;
 	left:10px;
-	width:380px;
+	width:264px;
 	background:#83bf9c;
-	height:30px;
-	border-radius:100px;
+	height:30px; 
+	border-radius:100px; 
 }
 .popup_wrap .p_basic.game .block_content .sec_status .gage .count{
 	font-size:35px;
 	font-weight:bold;
 	position:absolute;
-	right:10px;
+	right:15px;
 	top:20px;
 	color:#245137;
 }

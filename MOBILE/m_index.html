@@ -16,7 +16,7 @@ initial-scale=1.0, maximum-scale=3.0"/>
 	}
 	body{
 		width:100%;
-		background:#f7f5f6;
+		background:#cce7d8;
 	}
 	.img,
 	.img img{
@@ -25,11 +25,12 @@ initial-scale=1.0, maximum-scale=3.0"/>
 	.sec_rolling{
 		position:relative;
 		width:100%;
+		padding-bottom:20px;
 	}
 	.sec_rolling .arrow{
 		position:absolute;
 		top:30%;
-		left:2%;
+		left:3%;
 		z-index:1000;
 		width:30px;
 	}
@@ -37,11 +38,54 @@ initial-scale=1.0, maximum-scale=3.0"/>
 		display:block;
 	}
 	.sec_rolling .arrow.right{
-		left:89%;
+		left:90%;
 	}
 	.sec_rolling .img{
 		width:96%;
 		margin:0 auto;
+	}
+	.sec_rolling .dot{
+		position: absolute;
+		bottom:17%;
+		z-index:1000;
+		width:70%;
+		left:50%;
+		margin-left:-35%;
+		text-align:center;
+	}
+	
+	
+	
+	.sec_movie{
+		width:95%;
+		background:#fff;
+		margin:0 auto 20px;
+		border:2px solid #438761;
+
+	}
+	.sec_top{
+		position:relative;
+	}
+	.sec_top a{
+		position: absolute;
+	}
+	.sec_top a.btn_gift{
+		top:29.6%;
+		left:50%;
+		width:44%;
+		margin-left:-22%;
+	}
+	.sec_top a.btn_sch{
+		top:63%;
+		left:50%;
+		width:70%;
+		margin-left:-35%;
+	}
+	.sec_top a.btn_game{
+		top:70%;
+		left:50%;
+		width:70%;
+		margin-left:-35%;
 	}
 </style>
 </head>
@@ -51,20 +95,27 @@ initial-scale=1.0, maximum-scale=3.0"/>
    
  	<div class="sec_top">
     	<div class="inner_sec_top img">
+            <a href="#" class="btn_gift"><img src="images/btn_gift.png" /></a>
+            <a href="#" class="btn_sch"><img src="images/btn_sch.png" /></a>
+            <a href="#" class="btn_game"><img src="images/btn_game.png" /></a>
 	        <img src="images/main_top.jpg" />
         </div>
     </div>
+    <div class="sec_movie">
+    영상영역
+    </div>
      <div class="sec_rolling">
-     	<div class="arrow left"><a href="#"><img src="images/arrow_left.png" width="30" /></a></div>
-        <div class="arrow right"><a href="#"><img src="images/arrow_right.png" width="30" /></a></div>
+     
+     	<div class="dot">
+        	<img src="images/dot_select.png" width="18" alt=""/>
+	        <img src="images/dot_unselect.png" width="18" alt=""/>
+            <img src="images/dot_unselect.png" width="18" alt=""/>
+        </div>
+     
+     	<div class="arrow left"><a href="#"><img src="images/arrow_left.png" width="23" /></a></div>
+        <div class="arrow right"><a href="#"><img src="images/arrow_right.png" width="23" /></a></div>
         <div class="img"><img src="images/rolling_1.jpg" /></div>
      </div>
-    <div class="img">
-    	<img src="images/main_detail.jpg" />
-    </div>
-    <div class="img" style="background:#eee6ea;">
-    	<a href="#"><img src="images/main_bottom.jpg" /></a>
-    </div>
     
 </body>
 </html>

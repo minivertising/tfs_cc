@@ -45,7 +45,7 @@ html[xmlns] .clearfix {
 	font-family:'나눔고딕',nanumgothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;
 }
 body{
-	background:#faf1f6;
+	background:#d1e9db;
 }
 
 
@@ -60,7 +60,6 @@ body{
 	position:relative;
 	width:100%;
 	z-index:200;
-	background:#faf1f6;
 }
 .popup_wrap .p_agree.p_position{
 	position:relative;
@@ -76,9 +75,29 @@ body{
 	z-index:200;
 	background:#fff;
 }
+.popup_wrap .p_game.p_position{
+	position:relative;
+	width:100%;
+	z-index:200;
+	background:#d1e9db;
+}
 
 
+.popup_wrap .p_position .block_content .btn_sns{
+	width:100%;
+	padding:5px 0 5px;
+	text-align:center;
+}
 
+.popup_wrap .p_position .block_content .btn_block{
+	width:100%;
+	padding:10px 0 20px;
+	text-align:center;
+}
+
+.popup_wrap .p_position .block_content .btn_block .btn_sch{
+	width:50%;
+}
 
 .popup_wrap .p_agree.p_position .block_content{
 	padding:20px 0;
@@ -106,10 +125,82 @@ body{
 	z-index:200;
 	border:none;
 }
+.popup_wrap .p_game.p_position .block_content .game_start a{
+	display:block;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:10%;
+}
+.popup_wrap .p_game.p_position .block_content .game_start a img{
+	width:40%;
+}
+.popup_wrap .p_game.p_position .block_content .bags{
+	background:#eee;
+	padding:6% 0 3%;
+	width:100;
+	text-align:center;
+	position:relative;
+}
+.popup_wrap .p_game.p_position .block_content .bags img{
+	width:15%;
+}
+.popup_wrap .p_game.p_position .block_content .bags .bgimg img{
+	width:100%;
+}
+.popup_wrap .p_game.p_position .block_content .bags img.img_1{
+	position:absolute;
+	width:20%;
+}
+
+.popup_wrap .p_game.p_position .block_content .bags img.img_4{
+	width:20%;
+}
+.popup_wrap .p_game.p_position .block_content .gage{
+	width:100%;
+	margin-top:20px;
+	position:relative;
+}
+.popup_wrap .p_game.p_position .block_content .gage .bg_bar{
+	width:85%;
+	background:#fff;
+	height:20px;
+	top:5%;
+	position:absolute;
+}
+.popup_wrap .p_game.p_position .block_content .gage .count{
+	position:absolute;
+	font-weight:bold;
+	font-size:30px;
+}
+.popup_wrap .p_game.p_position .block_content .gage .bg_bar .bar{
+	width:50%;
+	background:#ddd;
+	height:20px;
+	position:relative;
+}
+
+.popup_wrap .p_game.p_position .block_content .cards{
+	width:95%;
+	margin:15px auto;
+}
+.popup_wrap .p_game.p_position .block_content .cards .inner{
+	width:100%;
+}
+.popup_wrap .p_game.p_position .block_content .cards .inner a{
+	display:block;
+	float:left;
+	width:25%;
+}
+.popup_wrap .p_game.p_position .block_content .cards .inner a img{
+	width:100%;
+}
 
 
-.popup_wrap .p_mid.p_position .block_close,
-.popup_wrap .p_agree.p_position .block_close {
+
+
+.popup_wrap .p_position .block_close,
+.popup_wrap .p_position .block_close {
 	width:100%;
 	position:absolute;
 	padding:0 0 0;
@@ -120,7 +211,7 @@ body{
 .popup_wrap .block_close .btn_close{
 	display:block;
 	float:right;
-	width:8%;
+	width:7%;
 }
 .popup_wrap .block_close .btn_close img{
 	width:100%;
@@ -128,7 +219,15 @@ body{
 .popup_wrap .title{
 	text-align:center;
 }
+.popup_wrap .p_alert.p_position .title{
+	text-align:center;
+	padding:30px 0 10px;
+}
 
+
+.popup_wrap .p_mid.p_position .block_content.inputs{
+	padding-top:30px;
+}
 
 .popup_wrap .p_mid.p_position .block_content .input_block .inner_input_block .txt{
 	text-align:center; 
@@ -148,20 +247,46 @@ body{
 }
 .popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one{
 	width:100%;
+	padding-bottom:20px;
 }
 
-.popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .label,
 .popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .input{
-	float:left;
+	left:30%;
+	z-index:10000;
+	position:absolute;
+}
+.popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .btn_sear{
+	left:69%;
+	z-index:10000;
+	position:absolute;
+	width:15%;
+}
+.popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .btn_sear a{
+	display:block;
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	padding:3px 0;
+	font-size:14px;
 }
 .popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .label{
-	width:35%;
+	width:20%;
+	position:absolute;
+	left:7%;
+	z-index:100;
 }
 .popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .input{
 	width:65%;
 }
+.popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .input.add {
+	width:40%;
+}
 .popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .input input{
 	width:80%;
+}
+.popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .input.add input{
+	width:40%;
 }
 .popup_wrap .p_mid.p_position .block_content .input_block .input_one .inner_input_one .input.tel input{
 	width:22%;
@@ -175,9 +300,9 @@ body{
 }
 .popup_wrap .p_mid.p_position .block_content .check_block{
 	padding-top:0px;
-	width:93%;
+	width:90%;
 	margin:0px auto;
-	padding:10px 0 20px;
+	padding:20px 0 20px;
 }
 .popup_wrap .p_mid.p_position .block_content .check_block .inner_check_block{
 	width:100%;
@@ -193,10 +318,33 @@ body{
 }
 .popup_wrap .p_mid.p_position .block_content .check_block .inner_check_block div.btn_detail{
 	width:20%;
+	font-size:13px;
+	letter-spacing:-1px;
+	
 }
+.popup_wrap .p_mid.p_position .block_content .check_block .inner_check_block div.btn_detail a,
+.popup_wrap .p_mid.p_position .block_content .check_block .inner_check_block div.btn_detail a:hover,
+.popup_wrap .p_mid.p_position .block_content .check_block .inner_check_block div.btn_detail a:active{
+	color:#666;
+	
+}
+
+
+.popup_wrap .p_mid.p_position .block_content.inputs .txt_notice{
+	width:90%;
+	font-size:13px;
+	letter-spacing:-1px;
+	padding-left:10%;
+	padding-top:20px;
+}
+.popup_wrap .p_mid.p_position .block_content.inputs .txt_notice li{
+	padding-bottom:5px;
+}
+
 .popup_wrap .p_mid.p_position .block_content .btn_block{
 	width:100%;
-	padding:10px 0 20px; 
+	padding:10px 0 20px;
+	text-align:center;
 }
 
 .popup_wrap .p_mid.p_position .block_content .text_noti {
@@ -302,4 +450,7 @@ html.gnbOpen .mobile_menu {
 .img,
 .img img{
 	width:100%;
+}
+.popup_wrap{
+	border:1px solid #ccc;
 }
