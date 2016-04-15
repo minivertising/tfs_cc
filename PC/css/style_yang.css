@@ -146,11 +146,11 @@ body.main{
 }
 /*popup 사이즈 조절*/
 .popup_wrap .p_basic.agree_1{
-    width:547px;
+    width:543px;
 	height:624px; 
 }
 .popup_wrap .p_basic.agree_2{
-    width:547px;
+    width:543px;
 	height:352px;
 }
 .popup_wrap .p_basic.input_info{
@@ -255,8 +255,20 @@ body.main{
 	padding:50px 0 20px;
 }
 
+.popup_wrap .p_basic .block_content .border{
+	padding:15px;
+	border:1px solid #ced7d2;
+	margin:0 35px 15px;
+}
+.popup_wrap .p_basic.comp_1 .block_content .border{
+	padding:15px 15px 0;
+
+}
+
+
+
 .popup_wrap .p_basic .block_content .sec_input{
-	padding-left:50px;
+	padding-left:0;
 	padding-bottom:3px; 
 }
 .popup_wrap .p_basic .block_content .sec_input .inner .label,
@@ -298,7 +310,7 @@ body.main{
 	background:#687e71;
 }
 .popup_wrap .p_basic .block_content .sec_check{
-	padding-left:50px;
+	padding-left:0;
 	font-size:12px; 
 }
 .popup_wrap .p_basic .block_content .sec_check a{
@@ -321,8 +333,8 @@ body.main{
 	padding-top:10px;  
 }
 .popup_wrap .p_basic.comp_1 .block_content .sec_txt{
-	padding-left:40px;
-	padding-bottom:10px; 
+	padding-left:5px;
+	padding-bottom:0; 
 }
 
 
